@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.alexb.todoquest.R
 import com.alexb.todoquest.view.fragments.TaskListFragment
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         // Replace the default fragment with TaskListFragment
         supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, TaskListFragment())
+            .replace(R.id.fragment_container_list_task, TaskListFragment())
             .commit()
     }
 }
