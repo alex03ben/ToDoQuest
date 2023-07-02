@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/primaryColor" android:state_checked="true"/> <!-- La couleur lorsque la CheckBox est cochée -->
+    <item android:color="@color/black" /> <!-- Couleur lorsque la CheckBox n'est pas cochée -->
+    <item android:color="@color/black" android:state_enabled="true" android:state_checked="false" /><!-- Couleur lorsque la CheckBox est activée (mais pas cochée) -->
+
+</selector>
