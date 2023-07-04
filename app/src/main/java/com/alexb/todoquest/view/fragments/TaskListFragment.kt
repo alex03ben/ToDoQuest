@@ -58,11 +58,6 @@ class TaskListFragment : Fragment() {
             Log.d("TEST", "========== nb =============== " + adapter.itemCount)
         }
 
-        /*val deleteAllTaskButton =
-            activity?.findViewById<FloatingActionButton>(R.id.delete_task_button)
-        deleteAllTaskButton?.setOnClickListener() {
-            taskViewModel.deleteAll()
-        }*/
 
         val itemTouchHelperCallback = object :
             ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) {
